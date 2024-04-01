@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap");
 
-/* containers */
+/* CONTAINERS */
 
 * {
   margin: 0;
@@ -16,7 +16,8 @@
 
 .header {
   background-color: #f7f7f750;
-  padding: 24px 20px 24px 20px;
+  padding: 8px 8px 8px 8px;
+  margin-top: 16px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -68,7 +69,19 @@
   padding: 24px 20px 24px 20px;
 }
 
-/* content */
+/* COMPONENTS */
+
+.menu {
+  display: flex;
+  border-radius: 8px;
+  color: #f7f7f7;
+  background-color: #3f0505;
+  box-shadow: 4px 4px #200101;
+  padding: 10px;
+  margin: 10px;
+}
+
+/* CONTENT */
 
 .mainlogo {
   background-color: #f7f7f7;
@@ -97,19 +110,19 @@
 }
 
 .logo {
-  background-color: #f7f7f7;
-  padding: 10px;
-  margin-left: 20px;
+  /*  background-color: #f7f7f7; */
+  padding: 4px;
+  margin-left: 4px;
 }
 
 .burger {
-  background-color: #f7f7f7;
-  padding: 10px;
-  margin-right: 20px;
+  /*  background-color: #f7f7f7; */
+  padding: 4px;
+  margin-right: 4px;
 }
 
 .title {
-  background-color: #f7f7f7;
+  /* background-color: #f7f7f7; */
   padding: 20px;
   margin: 20px;
 }
