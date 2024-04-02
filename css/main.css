@@ -74,6 +74,7 @@
 .menu {
   display: flex;
   align-items: center;
+  justify-content: center;
   text-align: center;
   border-radius: 8px;
   color: #f7f7f7;
@@ -143,8 +144,8 @@
 
 .links {
   background-color: #f7f7f7;
-  margin-top: -8px;
-  margin-bottom: 24px;
+  margin-top: 12px;
+  margin-bottom: 12px;
 }
 
 .signup {
@@ -153,4 +154,6 @@
   justify-content: center;
   align-items: center;
   padding: 28px;
+  margin-top: 24px;
+  margin-bottom: 12px;
 }
