@@ -51,7 +51,8 @@
 .moreinfo {
   background-color: #f7f7f750;
   display: flex;
-  flex-direction: column;
+  /*  flex-direction: column; */
+  flex-flow: row wrap;
   justify-content: center;
   align-items: center;
   padding: 12px;
@@ -86,6 +87,42 @@
   height: 40px;
 }
 
+.links {
+  background-color: #f7f7f7;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+/* DISPLAY COMPONENT AND SUBCOMPONENTS */
+
+.displays {
+  background-color: #f7f7f7;
+  margin: 20px;
+  border-radius: 20px;
+  width: 240px;
+  height: 184px;
+  position: relative;
+}
+
+.displays img {
+  border-radius: 18px;
+  width: 240px;
+  height: 184px;
+  border: #000000;
+  border-width: 3px;
+  border-style: solid;
+}
+
+.displaysinfo {
+  color: #f7f7f7;
+  width: 200px;
+  height: auto;
+  position: absolute;
+
+  left: 50px;
+  bottom: 8px;
+}
+
 /* CONTENT */
 
 .mainlogo {
@@ -116,14 +153,14 @@
 
 .logo {
   /*  background-color: #f7f7f7; */
-  padding: 4px;
   margin-left: 4px;
+  cursor: pointer;
 }
 
 .burger {
   /*  background-color: #f7f7f7; */
-  padding: 4px;
   margin-right: 4px;
+  cursor: pointer;
 }
 
 .title {
@@ -132,26 +169,10 @@
   margin: 20px;
 }
 
-.displays {
-  background-color: #f7f7f7;
-  padding: 20px;
-  margin: 20px;
-  border-radius: 20px;
-  border-color: #000000;
-  border-style: solid;
-  border-width: 2px;
-}
-
 .miniticket {
   background-color: #f7f7f7;
   margin-top: -8px;
   margin-bottom: 4px;
-}
-
-.links {
-  background-color: #f7f7f7;
-  margin-top: 12px;
-  margin-bottom: 12px;
 }
 
 .signup {
