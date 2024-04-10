@@ -16,6 +16,7 @@
 
 .header {
   background-color: #f7f7f750;
+  height: auto;
   padding: 8px 8px 8px 8px;
   margin-top: 16px;
   display: flex;
@@ -42,7 +43,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px;
+  padding: 4px;
   margin-left: 0px;
   margin-right: 0px;
   margin-top: 20px;
@@ -64,6 +65,7 @@
 
 .footer {
   background-color: #f7f7f750;
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -115,6 +117,7 @@
   width: 240px;
   height: 184px;
   position: relative;
+  cursor: pointer;
 }
 
 .displays img {
@@ -131,8 +134,9 @@
   width: 200px;
   height: auto;
   position: absolute;
+  text-align: center;
 
-  left: 50px;
+  left: 20px;
   bottom: 8px;
 }
 
