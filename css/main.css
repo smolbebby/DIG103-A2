@@ -1,9 +1,25 @@
+/* FONTS */
+
 @import url("https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap");
 
 @font-face {
   font-family: "KodeMono";
-  src: url(./assets/Font/KodeMono-Regular.ttf) format("TrueType");
+  src: url(/assets/Font/KodeMono-Regular.ttf) format("TrueType");
   font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "KodeMono";
+  src: url(/assets/Font/KodeMono-Medium.tff) format("TrueType");
+  font-weight: medium;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "KodeMono";
+  src: url(/assets/Font/KodeMono-SemiBold.tff) format("TrueType");
+  font-weight: bold;
   font-style: normal;
 }
 
@@ -23,7 +39,6 @@
 }
 
 .header {
-  background-color: #f7f7f750;
   height: auto;
   padding: 8px 8px 8px 8px;
   margin-top: 16px;
@@ -33,9 +48,7 @@
 }
 
 .topsection {
-  background-color: #f7f7f750;
   display: flex;
-  /*  flex-direction: column; */
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
@@ -46,22 +59,8 @@
   margin-bottom: 20px;
 }
 
-.onsale {
-  background-color: #f7f7f7;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 4px;
-  margin-left: 0px;
-  margin-right: 0px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
 .moreinfo {
-  background-color: #f7f7f750;
   display: flex;
-  /*  flex-direction: column; */
   flex-flow: row wrap;
   justify-content: space-around;
   align-items: center;
@@ -72,7 +71,6 @@
 }
 
 .footer {
-  background-color: #f7f7f750;
   height: auto;
   display: flex;
   flex-direction: column;
@@ -82,6 +80,29 @@
 }
 
 /* COMPONENTS */
+
+.ticketsbackground {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  box-shadow: 0px 0px 48px 24px #fc030390;
+}
+
+.ticketsbutton {
+  background-color: #3f0505;
+  color: #f7f7f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 32px;
+  cursor: pointer;
+  border-radius: 100px;
+  box-shadow: 0px 6px 2px #0000008b;
+  text-shadow: 0 0 1px #fff, 0 0 15px #fc0303, 0 0 20px #fc0303,
+    0 0 25px #fc0303, 0 0 30px #fc0303;
+  font-size: x-large;
+}
 
 .menu {
   display: flex;
@@ -94,19 +115,21 @@
   box-shadow: 4px 4px #200101;
   padding: 10px;
   margin: 10px;
-  width: 260px;
+  width: 300px;
   height: 40px;
+  font-size: large;
+  text-shadow: 0 0 1px #fff, 0 0 15px #fc0303, 0 0 20px #fc0303,
+    0 0 25px #fc0303, 0 0 30px #fc0303;
 }
 
 .links {
-  background-color: #f7f7f7;
-  margin-top: 8px;
-  margin-bottom: 8px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  font-size: large;
+  cursor: pointer;
 }
 
 .title {
-  /* background-color: #f7f7f7; */
-  background-color: #f7f7f750;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -135,14 +158,13 @@
   background: radial-gradient(
     circle,
     rgba(0, 0, 0, 1) 0%,
-    rgba(9, 9, 121, 0) 100%
+    rgba(9, 9, 121, 0) 50%
   );
 }
 
 /* DISPLAY COMPONENT AND SUBCOMPONENTS */
 
 .displays {
-  background-color: #f7f7f7;
   margin: 20px;
   border-radius: 20px;
   width: 240px;
@@ -183,7 +205,6 @@
 /* CONTENT */
 
 .mainlogo {
-  /* background-color: #f7f7f7; */
   display: flex;
   padding: 30px;
   margin-left: 24px;
@@ -192,31 +213,25 @@
 }
 
 .keyinfo {
-  background-color: #f7f7f7;
+  background-color: #00000071;
+  box-shadow: 0px 0px 24px #000000e4;
   display: flex;
-  /*  flex-direction: column; */
   flex-flow: row wrap;
   align-content: space-between;
-  margin-top: 48px;
-  margin-bottom: 36px;
-}
-
-.bigtickets {
-  background-color: #f7f7f7;
-  display: flex;
+  text-align: center;
   justify-content: center;
-  align-items: center;
-  padding: 48px;
+  padding: 16px;
+  margin-top: 48px;
+  margin-bottom: 52px;
+  border-radius: 50px;
 }
 
 .logo {
-  /*  background-color: #f7f7f7; */
   margin-left: 4px;
   cursor: pointer;
 }
 
 .burger {
-  /*  background-color: #f7f7f7; */
   margin-right: 4px;
   cursor: pointer;
 }
@@ -231,7 +246,6 @@
 }
 
 .signup {
-  background-color: #f7f7f7;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -251,4 +265,17 @@ h2 {
   font-family: "Silkscreen", sans-serif;
   font-weight: 400;
   font-style: normal;
+}
+
+.onsale {
+  background-color: #00000071;
+  box-shadow: 0px 0px 24px #000000e4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
