@@ -9,7 +9,7 @@ Marks Received for Assessment Two:
 HD // 92.8
 
 Comments on Assessment Two:
-“Nice work Leonora!! 👏 Smashing it through! Just some notes on the code: Consistent Naming Convention: You're using kebab-case (lowercase letters with hyphens) for your class names, which is good. However, make sure to consistently use this convention for all your classes.  
+_“Nice work Leonora!! 👏 Smashing it through! Just some notes on the code: Consistent Naming Convention: You're using kebab-case (lowercase letters with hyphens) for your class names, which is good. However, make sure to consistently use this convention for all your classes.  
 
 Descriptive Names: Class names like .header, .topsection, and .moreinfo are descriptive and clearly indicate what elements they style. This is good practice. However, names like .text could be more specific. Consider renaming it to something like .section-text for clarity. 
 
@@ -17,4 +17,4 @@ Reusability: You have some classes like .header, .topsection, and .moreinfo that
 
 Avoid Duplicate Styles: You have some duplicate styles in your CSS. For example, display: flex;, justify-content: center;, and align-items: center; are repeated in several classes. Consider creating a utility class for these shared styles. 
 
-Use object-fit: cover: If you have images in your CSS that need to maintain their aspect ratio while filling their parent element, consider using object-fit: cover; on those images. 👏” 
+Use object-fit: cover: If you have images in your CSS that need to maintain their aspect ratio while filling their parent element, consider using object-fit: cover; on those images. 👏” _
